@@ -11,13 +11,112 @@
     --White: hsl(0, 0%, 100%);
 }
 
-body {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "League Spartan", sans-serif;
-    background: var(--Light-Grayish-Magenta);
-    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
-    background-repeat: no-repeat;
 }
+
+body {
+    font-family: "League Spartan", sans-serif;
+    background: var(--White);
+    background-image: 
+        url(images/bg-pattern-top-mobile.svg), 
+        url(images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 90%;
+    margin: 3rem 0;
+    max-width: 27rem;
+}
+
+h2.heading {
+    font-size: 3rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    color: var(--Very-Dark-Magenta);
+}
+
+p.description {
+    font-size: 1.15rem;
+    text-align: center;
+    color: var(--Dark-Grayish-Magenta);
+
+}
+
+.ratings-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.5rem 0;
+}
+
+.rating-strip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: var(--Light-Grayish-Magenta);
+    margin: 0.5rem 0;
+    padding: 1rem 0;
+    border-radius: 0.5rem;
+}
+
+.rated {
+    color: var(--Very-Dark-Magenta);
+}
+
+
+.testimonials {
+    margin-bottom: 3rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    background: var(--Very-Dark-Magenta);
+    color: var(--White);
+    margin: 1rem 0;
+    padding: 1.8rem;
+    border-radius: 0.5rem;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.pic {
+    height: 3rem;
+    width: auto;
+    margin-right: 1.5rem;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.verified{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--Soft-Pink);
+}
+
+.quote {
+    font-size: 1.14rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+
+
 
