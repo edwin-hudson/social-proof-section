@@ -119,4 +119,42 @@ p.description {
 }
 
 
+@media screen and (min-width: 64rem) {
+    body {
+        display: flex;
+        background-image: 
+        url(images/bg-pattern-top-desktop.svg), 
+        url(images/bg-pattern-top-desktop.svg);
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 3rem 0;
+        max-width: 90rem;
+    }
+
+    article.top-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .summary {
+        width: 50%;
+    }
+
+    .ratings-group {
+        width: 50%;
+    }
+
+    .testimonials {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cards {
+        margin: 1rem;
+    }
+}
 
