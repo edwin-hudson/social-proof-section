@@ -204,9 +204,14 @@ p.description {
         margin-left: 0;
     }
 
+    .cards.card-2 {
+        transform: translateY(2rem);
+}
+
     .cards.card-3 {
         margin-right: 0;
-    }
+        transform: translateY(4rem);
+}
 
     p.quote {
         font-size: 1.2rem;
