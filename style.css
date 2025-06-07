@@ -197,7 +197,6 @@ p.description {
 
     .cards {
         margin: clamp(1rem, 1.2rem, 3rem);
-        /* height: 17rem; */
     }
 
     .cards.card-1 {
