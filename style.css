@@ -24,6 +24,7 @@ body {
         url(images/bg-pattern-top-mobile.svg), 
         url(images/bg-pattern-bottom-mobile.svg);
     background-repeat: no-repeat;
+    background-position: top left, bottom right;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -123,8 +124,9 @@ p.description {
     body {
         display: flex;
         background-image: 
-        url(images/bg-pattern-top-desktop.svg), 
-        url(images/bg-pattern-top-desktop.svg);
+            url(images/bg-pattern-top-desktop.svg), 
+            url(images/bg-pattern-top-desktop.svg);
+        background-position: top left, bottom right;
     }
 
     main {
@@ -132,7 +134,7 @@ p.description {
         flex-direction: column;
         width: 90%;
         margin: 3rem 0;
-        max-width: 90rem;
+        max-width: 80rem;
     }
 
     article.top-row {
@@ -141,11 +143,15 @@ p.description {
     }
 
     .summary {
-        width: 40%;
+        width: 30rem;
     }
 
     h2.heading {
-        font-size: clamp(2.5rem, 2.5rem, 3rem);
+        font-size: 6ch;
+        text-align: left;
+    }
+
+    p.description {
         text-align: left;
     }
 
@@ -169,14 +175,15 @@ p.description {
         margin-left: 1rem;
     }
     .strip-2 {
-        margin-left: 5rem;
+        align-self: center;
+
     }
     .strip-3 {
-        margin-left: 9rem;
+        align-self: last baseline;
     }
 
     .rated {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
 
@@ -187,6 +194,11 @@ p.description {
 
     .cards {
         margin: clamp(1rem, 1.2rem, 3rem);
+        /* height: 17rem; */
+    }
+
+    p.quote {
+        font-size: 1.2rem;
     }
 }
 
