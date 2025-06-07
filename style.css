@@ -141,12 +141,44 @@ p.description {
     }
 
     .summary {
-        width: 50%;
+        width: 40%;
+    }
+
+    h2.heading {
+        font-size: clamp(2.5rem, 2.5rem, 3rem);
+        text-align: left;
     }
 
     .ratings-group {
-        width: 50%;
+        display: flex;
+        align-items: start;
+        width: 60%;
+        margin-left: clamp(4rem, 6rem, 10rem);
     }
+
+    .rating-strip {
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        padding: 1rem 2rem;
+        gap: clamp(1rem, 1.5rem, 2rem);
+        width: 25rem;
+    }
+
+    .strip-1 {
+        margin-left: 1rem;
+    }
+    .strip-2 {
+        margin-left: 5rem;
+    }
+    .strip-3 {
+        margin-left: 9rem;
+    }
+
+    .rated {
+        font-size: 0.8rem;
+    }
+
 
     .testimonials {
         display: flex;
@@ -154,7 +186,7 @@ p.description {
     }
 
     .cards {
-        margin: 1rem;
+        margin: clamp(1rem, 1.2rem, 3rem);
     }
 }
 
