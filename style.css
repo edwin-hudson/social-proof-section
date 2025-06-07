@@ -200,6 +200,14 @@ p.description {
         /* height: 17rem; */
     }
 
+    .cards.card-1 {
+        margin-left: 0;
+    }
+
+    .cards.card-3 {
+        margin-right: 0;
+    }
+
     p.quote {
         font-size: 1.2rem;
     }
